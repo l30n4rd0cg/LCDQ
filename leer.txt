@@ -1,0 +1,32 @@
+INSTRUCCIONES DE USO
+
+NOTA: No voy a traducir esto porque el traductor dará muchos fallos.
+
+1. Iniciar el programa y requisitos
+	Para poder usar el programa se necesita tener Python instalado.
+	Enlaces de descarga Windows (No se puede usar en Windows 7 o anteriores):
+		Windows 64-bit: https://www.python.org/ftp/python/3.11.8/python-3.11.8-amd64.exe
+		Windows 32-bit: https://www.python.org/ftp/python/3.11.8/python-3.11.8.exe
+		Windows ARM64: https://www.python.org/ftp/python/3.11.8/python-3.11.8-arm64.exe
+	Enlace descarga macOS: https://www.python.org/ftp/python/3.11.8/python-3.11.8-macos11.pkg
+
+	El programa es el archivo "main.py"
+
+2. Uso del programa
+	Al empezar, te pedirá una pregunta que quieras añadir,
+	luego 3 respuestas más, y finalmente, el número de la
+	respuesta correcta.
+
+	Si dejas la pregunta en blanco, te saldrá un menú de opciones,
+	pero antes, una lista de las preguntas que has puesto.
+	
+	En el menú hay varias opciones pero las que más se usará es
+	la 4.
+	De la 4 se hablará en el apartado 3.
+
+3. Conversión a web.
+	Si en el menú, se selecciona la opción 4, y confirmas, podrás
+	convertir tu cuestionario a web. Se generará el archivo "résultat.html",
+	que se podrá usar en otros dispositivos.
+
+ADVERTENCIA: Los cambios no se guardan si se cierra el programa.

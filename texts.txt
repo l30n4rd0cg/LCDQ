@@ -1,0 +1,22 @@
+Le créateur du questionnaire
+Question: 
+Réponse {}: 
+Réponse correcte [1-3]: 
+Choisir une action:
+ 1	Continuer
+ 2	Supprimer une question
+ 3	Redémarrage
+ 4	Fin
+ 5	Sortie
+Êtes-vous sûr? [O/N] 
+Quel est le numéro de la question? 
+Numéro non valide.
+La question "{}" a été supprimée.
+Opération annulée.
+Il a été redémarré avec succès.
+Question enregistrée.
+Il n'y a pas de questions à supprimer.
+Il n'y a pas de questions.
+résultat.html
+Non
+Oui
