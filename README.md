@@ -3,6 +3,7 @@
 _NOTA: No voy a traducir esto porque el traductor dará muchos fallos._
 
 ## 1. Iniciar el programa y requisitos
+### 1.1. Python
 Para poder usar el programa se necesita tener Python instalado.
 Enlaces de descarga Windows (No se puede usar en Windows 7 o anteriores):
 - [Windows 64-bit](https://www.python.org/ftp/python/3.11.8/python-3.11.8-amd64.exe)
@@ -11,7 +12,11 @@ Enlaces de descarga Windows (No se puede usar en Windows 7 o anteriores):
 
 Enlace descarga [macOS](https://www.python.org/ftp/python/3.11.8/python-3.11.8-macos11.pkg)
 
-El programa es el archivo "main.py"
+### 1.2. LCDQ
+
+Puedes descargar el programa [aquí](https://github.com/l30n4rd0cg/LCDQ/archive/refs/heads/main.zip)
+
+Hay que ejecutar el archivo "main.py"
 
 ## 2. Uso del programa
 Al empezar, te pedirá una pregunta que quieras añadir,
