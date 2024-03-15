@@ -1,8 +1,27 @@
 from os import system
 
-VERSION: str = "Pre - 0.2"
+VERSION: str = "1.3"
+LANG: str = "fr.txt"
 
-textFile = open("texts.txt", "r", encoding = "utf8")
+langFile = open("lang.txt", "r", encoding = "utf8")
+print(langFile.read())
+langFile.close()
+
+lang = input()
+if lang == "2":
+    LANG = "es.txt"
+elif lang == "3":
+    LANG = "en.txt"
+elif lang == "C":
+    LANG = "cu.txt"
+    try:
+        _ = open(LANG)
+        _.close()
+    except:
+        print("ERROR: No custom language.")
+        LANG = "fr.txt"
+
+textFile = open(LANG, "r", encoding = "utf8")
 texts = list(map(lambda s: s[:-1], textFile.readlines()))
 textFile.close()
 
@@ -13,9 +32,9 @@ def sure(repeatIfAny: bool) -> bool:
     
     while True:
         inp = input(texts[10]).capitalize()
-        if inp == "O":
+        if inp == texts[21][0]:
             return True
-        elif inp == "N":
+        elif inp == texts[20][0]:
             return False
         if not repeatIfAny:
             return False
@@ -89,7 +108,7 @@ def action():
     print(texts[12])
     return 1
 
-def toHTML(q):
+def toHTML(q) -> str:
     global texts
 
     qu = q[0]
@@ -136,6 +155,9 @@ while True:
     ])
     print(texts[16])
 
+back_color = input(texts[22])
+text_color = input(texts[23])
+
 base_file = open("base.html", "r", encoding = "utf8")
 base_text = base_file.read()
 base_file.close()
@@ -147,8 +169,12 @@ html_body = ""
 for q in questions:
     html_body += toHTML(q)
 
-output_file.write(base_text.format(body = html_body))
+output_file.write(base_text.format(
+    body = html_body,
+    back_color = back_color,
+    text_color = text_color
+))
 
 output_file.close()
 
-system("résultat.html")
+system(texts[19])

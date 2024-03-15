@@ -1,0 +1,24 @@
+El creador de cuestionarios
+Pregunta: 
+Rspuesta {}: 
+Rspuesta correcta [1-3]: 
+Elige una acción:
+ 1	Continuar
+ 2	Eliminar una pregunta
+ 3	Volver a empezar
+ 4	Terminar
+ 5	Salir
+¿Estás seguro? [S/N] 
+¿Cuál es el número de pregunta? 
+Número inválido.
+Se ha borrado la pregunta "{}".
+Operación cancelada.
+Se ha reiniciado correctamente.
+Pregunta registrada.
+No hay preguntas para eliminar.
+No hay preguntas.
+resultado.html
+No
+Si
+Selecciona el color de fondo: 
+Selecciona el color de primer plano: 

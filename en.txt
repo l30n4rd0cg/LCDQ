@@ -1,0 +1,24 @@
+The questionnaire creator
+Question: 
+Answer {}: 
+Correct answer [1-3]: 
+Select action:
+ 1	Continue
+ 2	Delete a question
+ 3	Reset
+ 4	End
+ 5	Exit
+Are you sure? [Y/N] 
+What is the question's number? 
+Invalid number.
+The question "{}" has been deleted.
+Operation cancelled.
+It has been reset successfully.
+The question has been registered.
+There are no questions to delete.
+There are no questions.
+result.html
+No
+Yes
+Select background color: 
+Select foreground color: 
